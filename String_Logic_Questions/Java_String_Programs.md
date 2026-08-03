@@ -46,24 +46,7 @@ Output: easy is Java
 
 ---
 
-### 4. Reverse Each Word
-**Description:**
-Reverses each word individually while maintaining the original word order.
-
-**Example**
-```
-Input : Java is easy
-Output: avaJ si ysae
-```
-
-**Concepts Used:**
-- String Traversal
-- Nested Loops
-- Character Manipulation
-
----
-
-### 5. Concatenate Two Strings (Without Library Methods)
+### 4. Concatenate Two Strings (Without Library Methods)
 **Description:**
 Concatenates two strings manually without using `concat()` or `StringBuilder`.
 
@@ -74,7 +57,7 @@ Concatenates two strings manually without using `concat()` or `StringBuilder`.
 
 ---
 
-### 6. Capitalize the First Letter of Each Word
+### 5. Capitalize the First Letter of Each Word
 **Description:**
 Converts the first letter of every word into uppercase without using `toUpperCase()`.
 
@@ -91,7 +74,7 @@ Output: Java Programming Language
 
 ---
 
-### 7. Check Whether a String is Palindrome
+### 6. Check Whether a String is Palindrome
 **Description:**
 Checks whether the given string reads the same forward and backward.
 
@@ -108,7 +91,7 @@ Output: Palindrome
 
 ---
 
-### 8. Frequency of Each Character
+### 7. Frequency of Each Character
 **Description:**
 Counts the frequency of every character present in the string.
 
@@ -134,7 +117,7 @@ n = 1
 
 ---
 
-### 9. Remove Occurrences of a Specified Character
+### 8. Remove Occurrences of a Specified Character
 **Description:**
 Removes all occurrences of a specified character from a string.
 
@@ -169,6 +152,70 @@ prorammin
 - Basic Interview Problems
 
 ---
+
+### 9. Remove Duplicate Characters
+**Description:**
+Removes all duplicate characters from a string while preserving the first occurrence of each character.
+
+**Example**
+```text
+Input : programming
+Output: progamin
+```
+
+**Concepts Used:**
+- Nested Loops
+- String Traversal
+- Character Comparison
+
+---
+
+### 10. Check Whether Two Strings are Anagrams
+**Description:**
+Checks whether two strings are anagrams by comparing the frequency of each character without using sorting.
+
+**Example**
+```text
+Input :
+listen
+silent
+
+Output:
+Strings are Anagrams.
+```
+
+**Concepts Used:**
+- Character Frequency
+- Nested Loops
+- String Comparison
+
+---
+
+### 11. Sort Strings by Their Length
+**Description:**
+Sorts an array of strings in ascending order based on their length using the Bubble Sort algorithm.
+
+**Example**
+```text
+Input :
+{"Java", "C", "Programming", "Python", "Go"}
+
+Output:
+C
+Go
+Java
+Python
+Programming
+```
+
+**Concepts Used:**
+- Arrays
+- Bubble Sort
+- String Length
+- Swapping
+
+---
+
 
 ## 🛠️ Language Used
 
